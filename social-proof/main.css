@@ -1,0 +1,60 @@
+section {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 3rem;
+}
+
+.content {
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  gap: 2rem;
+}
+
+.grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  gap: 3rem;
+  margin: 0 auto;
+}
+
+.circle-logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+  background-color: #111;
+}
+
+.square-logo {
+  width: 7.5rem;
+  height: 2.5rem;
+  background-color: #111;
+}
+
+.pfp  {
+  width: 2.5rem;
+  height: 2.5rem;
+  aspect-ratio: 1/1;
+  border-radius: 1.25rem;
+  margin: 0 auto;
+  background-color: #111;
+}
+
+.wrapper {
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.social-tall {
+  width: 100%;
+  padding: 10rem 2rem;
+  display: grid;
+  grid-template-rows: repeat(3,auto);
+}
