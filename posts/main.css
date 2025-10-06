@@ -1,0 +1,180 @@
+article {
+  padding: 4rem;
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 2rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.85rem;
+  margin-bottom: 1.5rem;
+}
+
+.tagline {
+  margin-bottom: 6rem;
+  text-align: center;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.grid-frx4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  padding: 2rem;
+}
+.grid-frx3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  padding: 2rem;
+}
+
+.card-square h3 {
+  font-size: 1.35rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.black {
+  padding: 2rem;
+  background-color: #111;
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+  font-size: 3.25rem;
+  line-height: 1.25;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.stacked {
+  background-color: #888;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.category {
+  background-color: #111;
+  padding: .5rem;
+  color: #fff;
+  font-size: .85rem;
+}
+
+.stacked h5 {
+  background-color: #111;
+  padding: .5rem;
+  color: #fff;
+}
+
+.grid-stacked {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5rem;
+
+}
+
+.blog {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.aside {
+  font-size: .85rem;
+  font-weight: 700;
+}
+
+.blog h5 {
+  margin-bottom: 2rem;
+}
+
+.grid-vert-auto {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 2rem;
+}
+
+.grid-horizontal-auto-fr {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.grid-horizontal-auto-fr h2 {
+  text-align: left;
+  color: #fff;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  line-height: 1.125;
+}
+
+.grid-horizontal-auto-fr .content {
+  background-color: #111;
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.media {
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+
+.author {
+  color: #fff;
+  font-size: .75rem
+}
+
+.grid-horizontal-auto-fr .link p {
+  color: #fff;
+}
+
+.grid-horizontal-auto-fr .link p:hover {
+  color: #ddd;
+}
+
+.grid-frx2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
+}
+
+.card {
+  background-color: #fff;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.card h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card .link {
+  margin-top: 1rem;
+}
