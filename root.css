@@ -10,7 +10,7 @@
 }
 
 html {
-  background-color: #F2F2F2;
+  background-color: #fff;
 }
 
 body {
@@ -40,6 +40,7 @@ h4 {
   background-color: #111;
   border: 1.5px solid #111;
   color: #fff;
+  width: fit-content;
 }
 
 .btn p:hover {

@@ -1,0 +1,53 @@
+html {
+  background-color: #f2f2f2;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+nav {
+  background-color: #fff;
+  width: 100%;
+  display: grid;
+  padding: .75rem 3rem;
+  align-items: center;
+}
+
+.nav-3x {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.nav-2x {
+  grid-template-columns: 1fr auto;
+}
+
+ol {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-right {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 2rem;
+}
+
+.align-left {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text-right {
+  margin-left: auto;
+}
