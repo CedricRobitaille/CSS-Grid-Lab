@@ -1,0 +1,89 @@
+section {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  "right-side left-side";
+  align-items: center;
+  min-height: 37.5rem;
+}
+
+.section-padding {
+  padding: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: .25rem;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+ul li {
+  list-style: disc;
+  padding: .75rem;
+}
+
+.aside {
+  font-size: .75rem;
+  color: #888;
+}
+
+.grid-left {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 2rem;
+  padding: 4rem;
+  grid-area: left-side;
+}
+
+.right-side {
+  grid-area: right-side;
+  width: 100%;
+}
+
+.media {
+  background-color: #111;
+  display: grid;
+  align-items: center;
+  aspect-ratio: auto;
+  height: 100%;
+}
+
+.screen {
+  width: 14rem;
+  height: 18rem;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #111;
+  ;
+}
+
+.screen-wide {
+  height: auto;
+  aspect-ratio: 14/9;
+  width: 26rem;
+}
+
+.person {
+  display: flex;
+  gap: .75rem;
+  align-items: center;
+}
+
+.pfp {
+  height: 1.5rem;
+  aspect-ratio: 1/1;
+  background-color: #111;
+  border-radius: .75rem;
+}
+
+.blurb {
+  display: grid;
+  grid-template-rows: auto;
+  gap: .75rem;
+}
